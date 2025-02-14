@@ -1,0 +1,8 @@
+.app-components-video-error {
+  background-color: #404042 !important;
+  font-size: 12px !important;
+}
+
+.xgplayer-error:not(.app-components-video-error) {
+  display: none !important;
+}

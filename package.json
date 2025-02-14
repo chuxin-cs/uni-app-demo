@@ -1,0 +1,48 @@
+{
+  "name": "@chu-xin/ui-pro",
+  "version": "1.0.4",
+  "description": "📦📦📦 A is Business Component Library",
+  "type": "module",
+  "main": "dist/vue-ui-pro.cjs.js",
+  "module": "dist/vue-ui-pro.es.js",
+  "browser": "dist/vue-ui-pro.umd.js",
+  "exports": {
+    "./dist/index.css": "./dist/components.css",
+    "./index.css": "./dist/components.css",
+    ".": {
+      "import": "./dist/vue-ui-pro.es.js",
+      "require": "./dist/vue-ui-pro.cjs.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "components",
+    "vue ui",
+    "ui"
+  ],
+  "author": "chuxin",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.1.0",
+    "vue": "^3.5.13",
+    "xgplayer": "^2.18.2",
+    "xgplayer-flv.js": "2.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/vue-ui-pro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/vue-ui-pro.git",
+    "directory": "common/utils"
+  },
+  "files": [
+    "dist/*.js",
+    "package.json",
+    "README.md"
+  ]
+}
